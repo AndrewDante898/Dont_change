@@ -24,12 +24,20 @@ import android.widget.Toast;
 //import com.google.firebase.database.DatabaseReference;
 //import com.google.firebase.database.FirebaseDatabase;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class RegisterActivity extends AppCompatActivity {
 
-/*    private Button mRegister;
+    private Button mRegister;
     private ProgressBar spinner;
     private EditText mEmail, mPassword, mName, mBudget;
 
@@ -55,7 +63,7 @@ public class RegisterActivity extends AppCompatActivity {
                 spinner.setVisibility(View.VISIBLE);
                 final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 if (user != null && user.isEmailVerified()) {
-                    Intent i = new Intent(RegisterActivity.this, MainActivity2.class);
+                    Intent i = new Intent(RegisterActivity.this, MainActivity.class);
                     startActivity(i);
                     finish();
                     spinner.setVisibility(View.GONE);
@@ -68,7 +76,7 @@ public class RegisterActivity extends AppCompatActivity {
         existing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(RegisterActivity.this, MainActivity2.class);
+                Intent i = new Intent(RegisterActivity.this, MainActivity.class);
                 startActivity(i);
                 finish();
                 return;
@@ -176,5 +184,5 @@ public class RegisterActivity extends AppCompatActivity {
         Intent i = new Intent(RegisterActivity.this, Choose_Login_And_Reg.class);
         startActivity(i);
         finish();
-    }*/
+    }
 }

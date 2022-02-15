@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "649989200497",
+    "firebase_url": "https://internapp-f8c5f-default-rtdb.firebaseio.com",
+    "project_id": "internapp-f8c5f",
+    "storage_bucket": "internapp-f8c5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649989200497:android:24b057fbb094fcbba1d9d0",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649989200497-du4ap1l7l8cu8bomespprqunp9lbjhmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ5kPdba8pVNM98S43AWNfoJTZgS8bVcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649989200497-du4ap1l7l8cu8bomespprqunp9lbjhmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649989200497:android:2c59ddbf7c68296aa1d9d0",
+        "android_client_info": {
+          "package_name": "com.example.youtubefyptinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649989200497-du4ap1l7l8cu8bomespprqunp9lbjhmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ5kPdba8pVNM98S43AWNfoJTZgS8bVcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649989200497-du4ap1l7l8cu8bomespprqunp9lbjhmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

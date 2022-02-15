@@ -4,11 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/andre/AndroidStudioProjects/YoutubeFYPTinder/app/src/main/res/drawable/edit_text_focused_bg.xml" value="0.1825" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/YoutubeFYPTinder/app/src/main/res/layout/activity_btn_dis_like.xml" value="0.153125" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/YoutubeFYPTinder/app/src/main/res/layout/activity_btn_like.xml" value="0.1671875" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/YoutubeFYPTinder/app/src/main/res/layout/activity_choose_login_and_reg.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/YoutubeFYPTinder/app/src/main/res/layout/activity_login.xml" value="0.17395833333333333" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/YoutubeFYPTinder/app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/YoutubeFYPTinder/app/src/main/res/layout/activity_main2.xml" value="0.1" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/YoutubeFYPTinder/app/src/main/res/layout/activity_register.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/YoutubeFYPTinder/app/src/main/res/layout/activity_settings.xml" value="0.1671875" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/YoutubeFYPTinder/app/src/main/res/layout/layout_top_navigation_back.xml" value="0.1" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/YoutubeFYPTinder/app/src/main/res/layout/layout_top_navigation_view.xml" value="0.1" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/YoutubeFYPTinder/app/src/main/res/layout/splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/YoutubeFYPTinder/app/src/main/res/menu/top_navigation_tollbar.xml" value="0.1" />
       </map>
     </option>
   </component>
