@@ -82,7 +82,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 spinner.setVisibility(View.VISIBLE);
-                Intent i = new Intent(LoginActivity.this, ForgetPasswordActivity.class);
+                Intent i = new Intent(LoginActivity.this, ForgotPasswordActivity.class);
                 startActivity(i);
                 finish();
                 return;

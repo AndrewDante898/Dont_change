@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".BtnDisLikeActivity"
+            android:name=".BtnDislikeActivity"
             android:exported="false" />
         <activity
             android:name=".BtnLikeActivity"
@@ -22,13 +22,10 @@
             android:name=".MatchesActivity"
             android:exported="false" />
         <activity
-            android:name=".SettingActivity"
-            android:exported="false" />
-        <activity
             android:name=".SettingsActivity"
             android:exported="false" />
         <activity
-            android:name=".ForgetPasswordActivity"
+            android:name=".ForgotPasswordActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

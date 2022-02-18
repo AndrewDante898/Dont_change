@@ -13,29 +13,30 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
-public class BtnLikeActivity extends AppCompatActivity {
-    private static final String TAG = "BtnLikeActivity";
+public class BtnDislikeActivity extends AppCompatActivity {
+    private static final String TAG = "BtnDislikeActivity";
     private static final int ACTIVITY_NUM = 1;
-    private Context mContext = BtnLikeActivity.this;
-    private ImageView like;
+    private Context mContext = BtnDislikeActivity.this;
+    private ImageView dislike;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_btn_like);
+        setContentView(R.layout.activity_btn_dislike);
+
 
         setupTopNavigationView();
-        like = findViewById(R.id.like);
+        dislike = findViewById(R.id.dislike);
 
         Intent intent = getIntent();
         String profileUrl = intent.getStringExtra("url");
 
         switch (profileUrl) {
             case "default":
-                Glide.with(mContext).load(R.drawable.profile).into(like);
+                Glide.with(mContext).load(R.drawable.profile).into(dislike);
                 break;
             default:
-                Glide.with(mContext).load(profileUrl).into(like);
+                Glide.with(mContext).load(profileUrl).into(dislike);
                 break;
         }
 
@@ -49,8 +50,7 @@ public class BtnLikeActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
 
-
-                Intent mainIntent = new Intent(BtnLikeActivity.this, MainActivity.class);
+                Intent mainIntent = new Intent(BtnDislikeActivity.this, MainActivity.class);
                 startActivity(mainIntent);
             }
         }).start();
